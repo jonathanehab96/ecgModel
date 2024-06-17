@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 # Load the saved model
-model_path = "trained_model5_inceptionv3old.joblib"
+model_path = "trained_model5_inceptionv3old.pkl"
 loaded_model = joblib.load(model_path)
 
 # Ensure the loaded model is compiled (if necessary)
