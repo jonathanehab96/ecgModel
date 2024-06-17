@@ -1,5 +1,6 @@
 gunicorn
 Flask
+tensorflow==2.16.0
 numpy<2.0.0
 opencv-python
 joblib
