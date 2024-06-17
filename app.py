@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 # Load the saved model
-model_path = "trained_model5_inceptionv3old.pkl"
+model_path = "trained_model5_inceptionv3old.joblib"
 try:
     loaded_model =joblib.load(model_path)
     print(f"Model loaded successfully from {model_path}")
