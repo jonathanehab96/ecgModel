@@ -4,4 +4,4 @@ numpy<2.0.0
 opencv-python
 joblib
 keras
-tensorflow=<2.0
+tensorflow=2.0
