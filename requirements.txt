@@ -4,5 +4,5 @@ tensorflow==2.12
 numpy<2.0.0
 opencv-python
 joblib
-keras==3.3.3
+keras
 
