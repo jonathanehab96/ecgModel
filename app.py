@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load the saved model
-model_path = "trained_model5_inceptionv3old.pkl"
+model_path = "trained_model5_inceptionv3old.joblib"
 loaded_model = joblib.load(model_path)
 
 # Define cropping dimensions
